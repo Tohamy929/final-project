@@ -159,7 +159,7 @@ export default function WishlistPage() {
         <div className="text-center py-12">
           <Heart size={48} className="mx-auto text-gray-300 mb-4" />
           <p className="text-gray-500 text-lg mb-8">Your wishlist is empty</p>
-          <Link href="/products">
+          <Link href="/">
             <Button className="bg-main hover:bg-main/90">Continue Shopping</Button>
           </Link>
         </div>
