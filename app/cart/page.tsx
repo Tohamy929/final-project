@@ -1,6 +1,7 @@
 
 'use client'
 export const dynamic = "force-dynamic";
+
 import React, { useEffect, useState, useRef } from 'react'
 import { useSession, signIn, signOut } from 'next-auth/react'
 import toast from 'react-hot-toast'
@@ -8,6 +9,7 @@ import { Button } from '@/components/ui/button'
 import { Trash2, Plus, Minus } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+
 
 const API_BASE = 'https://ecommerce.routemisr.com/api/v1'
 
